@@ -1,0 +1,151 @@
+{
+  "crops": [
+    {
+      "name": "Rice",
+      "soil": ["clay", "alluvial", "loamy"],
+      "season": ["kharif", "monsoon"],
+      "water_need": "High",
+      "temperature": "22-32 C",
+      "rainfall": "100-200 cm",
+      "fertilizers": ["Urea", "DAP", "MOP", "zinc sulphate"],
+      "tips": "Maintain standing water during early growth and use certified seeds."
+    },
+    {
+      "name": "Wheat",
+      "soil": ["loamy", "alluvial", "black"],
+      "season": ["rabi", "winter"],
+      "water_need": "Medium",
+      "temperature": "10-25 C",
+      "rainfall": "50-75 cm",
+      "fertilizers": ["Urea", "DAP", "potash"],
+      "tips": "Irrigate at crown root initiation, flowering, and grain filling stages."
+    },
+    {
+      "name": "Cotton",
+      "soil": ["black", "red", "loamy"],
+      "season": ["kharif", "summer"],
+      "water_need": "Medium",
+      "temperature": "21-35 C",
+      "rainfall": "60-100 cm",
+      "fertilizers": ["NPK", "compost", "potash"],
+      "tips": "Use integrated pest management and avoid waterlogging."
+    },
+    {
+      "name": "Maize",
+      "soil": ["loamy", "sandy loam", "alluvial"],
+      "season": ["kharif", "rabi", "summer"],
+      "water_need": "Medium",
+      "temperature": "18-27 C",
+      "rainfall": "50-100 cm",
+      "fertilizers": ["Urea", "DAP", "farmyard manure"],
+      "tips": "Keep the field weed-free for the first 45 days."
+    },
+    {
+      "name": "Groundnut",
+      "soil": ["sandy loam", "red", "well drained"],
+      "season": ["kharif", "summer"],
+      "water_need": "Low",
+      "temperature": "25-35 C",
+      "rainfall": "50-75 cm",
+      "fertilizers": ["Gypsum", "DAP", "organic compost"],
+      "tips": "Use gypsum at flowering stage for better pod development."
+    },
+    {
+      "name": "Tomato",
+      "soil": ["loamy", "sandy loam", "well drained"],
+      "season": ["rabi", "summer"],
+      "water_need": "Medium",
+      "temperature": "20-30 C",
+      "rainfall": "60-120 cm",
+      "fertilizers": ["NPK", "vermicompost", "calcium nitrate"],
+      "tips": "Use staking, mulching, and regular scouting for leaf diseases."
+    }
+  ],
+  "pests": [
+    {
+      "crop": "Tomato",
+      "problem": "leaf curl disease",
+      "symptoms": ["curling leaves", "yellowing", "stunted growth"],
+      "management": "Use disease-free seedlings, remove infected plants, control whiteflies with neem oil, and avoid excessive nitrogen."
+    },
+    {
+      "crop": "Rice",
+      "problem": "stem borer",
+      "symptoms": ["dead heart", "white ear head"],
+      "management": "Use pheromone traps, remove stubbles, apply recommended bio-control agents, and avoid excess nitrogen."
+    },
+    {
+      "crop": "Cotton",
+      "problem": "bollworm",
+      "symptoms": ["holes in bolls", "flower shedding"],
+      "management": "Install pheromone traps, grow trap crops, use Bt cotton where suitable, and follow local advisory before spraying."
+    },
+    {
+      "crop": "Wheat",
+      "problem": "rust disease",
+      "symptoms": ["orange brown spots", "powdery pustules"],
+      "management": "Use resistant varieties, monitor humidity, remove infected residues, and contact agriculture officers for fungicide advice."
+    }
+  ],
+  "schemes": [
+    {
+      "name": "PM-KISAN",
+      "benefit": "Income support to eligible farmer families.",
+      "eligibility": "Small and marginal farmers as per government norms.",
+      "action": "Check registration status through the official PM-KISAN portal or local agriculture office."
+    },
+    {
+      "name": "Pradhan Mantri Fasal Bima Yojana",
+      "benefit": "Crop insurance support against natural calamities and crop loss.",
+      "eligibility": "Farmers growing notified crops in notified areas.",
+      "action": "Apply through banks, CSC centers, or the official crop insurance portal."
+    },
+    {
+      "name": "Soil Health Card Scheme",
+      "benefit": "Soil nutrient report and fertilizer recommendations.",
+      "eligibility": "All farmers can request soil testing through agriculture departments.",
+      "action": "Submit soil samples at the nearest soil testing center."
+    },
+    {
+      "name": "PM Krishi Sinchai Yojana",
+      "benefit": "Support for efficient irrigation and water conservation.",
+      "eligibility": "Farmers adopting irrigation improvement practices.",
+      "action": "Contact local agriculture or irrigation department for subsidy details."
+    }
+  ],
+  "market_prices": [
+    {"crop": "Rice", "price_per_quintal": 2250, "trend": "Stable", "market": "Mandi sample average"},
+    {"crop": "Wheat", "price_per_quintal": 2400, "trend": "Rising", "market": "Mandi sample average"},
+    {"crop": "Cotton", "price_per_quintal": 6800, "trend": "Fluctuating", "market": "Mandi sample average"},
+    {"crop": "Maize", "price_per_quintal": 2100, "trend": "Stable", "market": "Mandi sample average"},
+    {"crop": "Groundnut", "price_per_quintal": 5900, "trend": "Rising", "market": "Mandi sample average"},
+    {"crop": "Tomato", "price_per_quintal": 1500, "trend": "Fluctuating", "market": "Local wholesale sample"}
+  ],
+  "sustainable_tips": [
+    "Use drip irrigation or sprinkler irrigation to reduce water waste.",
+    "Apply compost, green manure, and crop residue recycling to improve soil health.",
+    "Follow crop rotation to break pest cycles and maintain nutrients.",
+    "Use neem-based pest control before chemical sprays where suitable.",
+    "Mulch the soil to reduce evaporation and weed growth.",
+    "Test soil before fertilizer application to prevent overuse."
+  ],
+  "sample_queries": [
+    "Which crop is suitable for black soil?",
+    "Best fertilizer for rice?",
+    "How to prevent tomato leaf disease?",
+    "What government schemes are available for farmers?",
+    "How to reduce water usage in farming?",
+    "What crop should I grow during summer?",
+    "Market price of wheat?",
+    "Organic farming tips?"
+  ],
+  "weather_samples": [
+    {"day": "Monday", "temperature": 31, "rainfall": 4, "humidity": 68},
+    {"day": "Tuesday", "temperature": 33, "rainfall": 0, "humidity": 61},
+    {"day": "Wednesday", "temperature": 35, "rainfall": 0, "humidity": 55},
+    {"day": "Thursday", "temperature": 32, "rainfall": 8, "humidity": 72},
+    {"day": "Friday", "temperature": 30, "rainfall": 12, "humidity": 78},
+    {"day": "Saturday", "temperature": 29, "rainfall": 6, "humidity": 74},
+    {"day": "Sunday", "temperature": 31, "rainfall": 2, "humidity": 67}
+  ]
+}
