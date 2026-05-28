@@ -229,22 +229,4 @@ The dashboard includes:
 - Pest guidance is advisory and not a replacement for expert field inspection
 - Gemini requires an internet connection and valid API key
 
-## Future Improvements
 
-- Add live weather API integration
-- Add real-time mandi price API
-- Add multilingual support for local languages
-- Add voice input and output
-- Add image-based pest detection
-- Add SQLite database and admin panel
-- Add farmer profile-based personalized recommendations
-
-## College Submission Use
-
-This project is suitable for:
-
-- AAT2 project demonstration
-- PPT presentation
-- Report/PDF generation
-- Live Streamlit demo
-- Social impact chatbot evaluation
