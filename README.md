@@ -143,7 +143,7 @@ Farmers often face difficulty accessing timely, simple and reliable agricultural
 
 ### 2. Conversation Design
 
-The chatbot supports intent-based conversation. It identifies whether the farmer is asking about crops, fertilizer, pests, irrigation, schemes, market prices, weather or sustainable farming. Gemini is used for contextual natural language answers, and the local knowledge base provides fallback responses.
+The chatbot supports intent-based conversation. It identifies whether the farmer is asking about crops, fertilizer,  irrigation, schemes, market prices, weather or sustainable farming. Gemini is used for contextual natural language answers, and the local knowledge base provides fallback responses.
 
 ### 3. Knowledge Base
 
