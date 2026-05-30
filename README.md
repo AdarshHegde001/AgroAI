@@ -1,6 +1,6 @@
 # AgroAid AI – Intelligent Farmer Assistance Chatbot
 
-AgroAid AI is a full-stack AI-powered social impact chatbot built for the AAT2 Social Impact Chatbot Development project. It helps farmers get simple guidance about crop selection, fertilizer use, pest management, irrigation, weather-based advice, government agriculture schemes, market prices and sustainable farming practices.
+AgroAid AI is a full-stack AI-powered social impact chatbot . It helps farmers get simple guidance about crop selection, fertilizer use, pest management, irrigation, weather-based advice, government agriculture schemes, market prices and sustainable farming practices.
 
 ## Project Objective
 
@@ -23,7 +23,7 @@ The objective is to develop a user-friendly AI chatbot that supports farmers wit
 - Chatbot memory/history
 - Modern Streamlit dashboard
 - Matplotlib charts for farming analytics
-- AAT2 report-ready documentation page
+
 
 ## Technology Stack
 
